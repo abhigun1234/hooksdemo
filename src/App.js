@@ -4,12 +4,15 @@ import UseStateHookDemo from './UseStateHookDemo';
 import Inline from './Inline';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home';
+import User from './User';
 function App() {
   return (  
     <div className="App">
-      <Home></Home>
-      <Inline></Inline>
-      <UseStateHookDemo primary={true}></UseStateHookDemo>
+      <User></User>
+      {/* <Home></Home>
+      <Inline></Inline> */}
+      {/* <Inline></Inline>
+      <UseStateHookDemo primary={true}></UseStateHookDemo> */}
     </div>
   );
 }

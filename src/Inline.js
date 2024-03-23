@@ -3,7 +3,7 @@ import React from 'react';
 function Inline(props) {
     const heading={
         fontSize: '72px'
-        ,color:'blue'
+        ,color:'red'
     }
     return (
         <div style={heading}>

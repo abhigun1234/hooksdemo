@@ -1,10 +1,11 @@
 import React from 'react';
-
+import './Home.css'
+import styles from './Home.module.css'
 function Home(props) {
     return (
         <div>
-            <h1>Hello</h1>
-            <button className='btn btn-primary'>ok</button>
+            <h1 className={styles.success}>Hello</h1>
+           
         </div>
     );
 }
