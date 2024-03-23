@@ -2,6 +2,20 @@
   text-align: center;
 }
 
+img{
+
+  max-width: 200px;
+  height: 200px;
+}
+.product-list{
+  display: flex;
+  /* max-width: 200px; */
+  flood-color: row;
+  float: left;
+  width: 200px;
+  justify-content: space-around;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;

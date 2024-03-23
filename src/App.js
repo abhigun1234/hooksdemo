@@ -8,7 +8,8 @@ import User from './User';
 function App() {
   return (  
     <div className="App">
-      <User></User>
+      <Home></Home>
+      {/* <User></User> */}
       {/* <Home></Home>
       <Inline></Inline> */}
       {/* <Inline></Inline>
