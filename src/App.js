@@ -5,10 +5,13 @@ import Inline from './Inline';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from './Home';
 import User from './User';
+import DashBoard from './DashBoard';
 function App() {
   return (  
     <div className="App">
-      <Home></Home>
+      <DashBoard></DashBoard>
+      <Inline></Inline>
+      {/* <Home></Home> */}
       {/* <User></User> */}
       {/* <Home></Home>
       <Inline></Inline> */}
